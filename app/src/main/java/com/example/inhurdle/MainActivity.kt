@@ -12,9 +12,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_start)
-
-        camera_btn = findViewById(R.id.Camera_btn)
+        setContentView(R.layout.activity_main)
 
     }
 
